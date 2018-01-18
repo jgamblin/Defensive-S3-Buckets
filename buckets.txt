@@ -1,0 +1,15 @@
+bucket
+cdn
+cloudwatch
+com
+corp
+dev
+docs
+files
+logs
+net
+org
+prod
+s3
+staging
+www
