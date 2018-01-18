@@ -2,7 +2,7 @@
 
 In the news everyday are stories of companies leaking data through [exposed S3 buckets](https://www.google.com/search?q=S3+bucket+leak&source=lnms&tbm=nws&sa=X).
 
-One thing I noticed is that a lot of leaks are found using common S3 bucket names so in an epiphany in the shower I *invented* `Defensive S3 Bucket Squatting` where you preregister and secure the most common S3 bucket names so that no one else can use them.  This obviously wont stop your company from still having miss-configured S3 buckets but it should make it harder for bad actors to find them and exploit them.
+One thing I noticed is that a lot of leaks are found using common S3 bucket names, so I had an epiphany in the shower one day and I *invented* `Defensive S3 Bucket Squatting` where you preregister and secure the most common S3 bucket names so that no one else can use them.  This obviously wont stop your company from still having miss-configured S3 buckets but it should make it harder for bad actors to find them and exploit them.
 
 ## What It Does:
 This script creates and secures the most common S3 bucket names to stop them from being used by anyone in an attempt to make finding unsecured buckets harder.
