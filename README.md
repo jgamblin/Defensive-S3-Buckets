@@ -7,6 +7,8 @@ One thing I noticed is that a lot of leaks are found using common S3 bucket name
 ## What It Does:
 This script creates and secures the most common S3 bucket names to stop them from being used by anyone in an attempt to make finding unsecured buckets harder.
 
+![Screenshot](https://raw.githubusercontent.com/jgamblin/Defensive-S3-Buckets/master/bucketss3.png)
+
 ## Usage:
 - `chmod +x defensives3.sh`
 - `./defensives3.sh companyname`
