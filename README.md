@@ -1,5 +1,9 @@
 # Defensive S3 Bucket Squatting
 
+In the news everyday are stories of companies leaking data through [exposed S3 buckets](https://www.google.com/search?q=S3+bucket+leak&source=lnms&tbm=nws&sa=X).
+
+One thing I noticed is that a lot of leaks are found using common S3 bucket names so in an epiphany in the shower I *invented* `Defensive S3 Bucket Squatting` where you preregister and secure the most common S3 bucket names so that no one else can use them.  This obviously wont stop your company from still having miss-configured S3 buckets but it should make it harder for bad actors to find them and exploit them.
+
 ## What It Does:
 This script creates and secures the most common S3 bucket names to stop them from being used by anyone in an attempt to make finding unsecured buckets harder.
 
@@ -27,4 +31,4 @@ This will delete all buckets that where created by this script.
 ## Important Notice
 - I likely don't know what I am doing and this could be done faster, better and simpler some other way.
 - These scripts could also break your cloud and make you cry.
-- There are minimal costs for having empty S3 buckets.
+- There are minimal costs for having empty S3 buckets in your account.  My best guess is under $5 a month.
