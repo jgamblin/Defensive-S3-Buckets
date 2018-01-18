@@ -18,6 +18,12 @@ This will create about 80 buckets using the names in `buckets.txt`.
 
 This will create about 600 buckets using the names in `150buckets.txt`.
 
+## Backout Plan:
+- `chmod +x deldefensives3.sh`
+- `./deldefensives3.sh companyname`
+
+This will delete all buckets that where created by this script.
+
 ## Important Notice
 - I likely don't know what I am doing and this could be done faster, better and simpler some other way.
 - These scripts could also break your cloud and make you cry.
